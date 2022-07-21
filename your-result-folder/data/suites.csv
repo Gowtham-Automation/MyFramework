@@ -1,0 +1,5 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Wed Jul 20 14:04:28 IST 2022","Wed Jul 20 14:04:52 IST 2022","24665","","Validate Automation product application functionalities","","validate user able to create an account successfully","","validate user able to create an account successfully",""
+"failed","Mon Jul 04 09:14:57 IST 2022","Mon Jul 04 09:25:53 IST 2022","655693","","Filter the product and validate the similar products","","validate user able to add product and proceed till payments","","validate user able to add product and proceed till payments",""
+"broken","Mon Jul 04 10:12:37 IST 2022","Mon Jul 04 10:12:39 IST 2022","2076","","Validate Automation product application functionalities","","validate user able to sign in and sign out successfully","","validate user able to sign in and sign out successfully",""
+"broken","Wed Jul 20 14:29:41 IST 2022","Wed Jul 20 14:29:57 IST 2022","15961","","Validate Sign In Sign Out functionalities","","validate user able to sign in and sign out successfully","","validate user able to sign in and sign out successfully",""

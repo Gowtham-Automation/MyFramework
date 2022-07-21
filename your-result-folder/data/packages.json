@@ -1,0 +1,93 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "src.test.resources.Features",
+    "children" : [ {
+      "name" : "test_feature",
+      "children" : [ {
+        "name" : "Filter the product and validate the similar products",
+        "children" : [ {
+          "name" : "validate user able to add product and proceed till payments",
+          "uid" : "8b76cd6a6db85ac4",
+          "parentUid" : "abafe4f028c7051fe4c51cc5055a6522",
+          "status" : "failed",
+          "time" : {
+            "start" : 1656906297549,
+            "stop" : 1656906953242,
+            "duration" : 655693
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 13,
+          "retriesStatusChange" : true,
+          "parameters" : [ "b.h43@gmail.com", "feabcd" ]
+        } ],
+        "uid" : "abafe4f028c7051fe4c51cc5055a6522"
+      }, {
+        "name" : "Validate Automation product application functionalities",
+        "children" : [ {
+          "name" : "validate user able to sign in and sign out successfully",
+          "uid" : "c4f92dde96a5ab2a",
+          "parentUid" : "52ea76fa5291a7fe350c8beb5b9918a1",
+          "status" : "broken",
+          "time" : {
+            "start" : 1656909757923,
+            "stop" : 1656909759999,
+            "duration" : 2076
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 0,
+          "retriesStatusChange" : false,
+          "parameters" : [ "b.h43@gmail.com", "feabcd" ]
+        }, {
+          "name" : "validate user able to create an account successfully",
+          "uid" : "b0e6412e983dd5e9",
+          "parentUid" : "52ea76fa5291a7fe350c8beb5b9918a1",
+          "status" : "passed",
+          "time" : {
+            "start" : 1658306068168,
+            "stop" : 1658306092833,
+            "duration" : 24665
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 0,
+          "retriesStatusChange" : false,
+          "parameters" : [ "b.ke49@gmail.com" ]
+        } ],
+        "uid" : "52ea76fa5291a7fe350c8beb5b9918a1"
+      } ],
+      "uid" : "8b769641067c3c443e5df41c2a5994c1"
+    }, {
+      "name" : "SignInSignOut_feature.Validate Sign In Sign Out functionalities",
+      "children" : [ {
+        "name" : "validate user able to sign in and sign out successfully",
+        "uid" : "bd78a85e87f1ff1c",
+        "parentUid" : "1605ab735de48f4c735867399390ad49",
+        "status" : "broken",
+        "time" : {
+          "start" : 1658307581442,
+          "stop" : 1658307597403,
+          "duration" : 15961
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "b.ke49@gmail.com", "feabcd" ]
+      } ],
+      "uid" : "SignInSignOut_feature.Validate Sign In Sign Out functionalities"
+    } ],
+    "uid" : "src.test.resources.Features"
+  } ]
+}

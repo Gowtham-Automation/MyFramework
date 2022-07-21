@@ -1,0 +1,81 @@
+{
+  "11c50c57c0cfabe3c083565909e437cf" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "bd78a85e87f1ff1c",
+      "status" : "broken",
+      "statusDetails" : "unknown error: cannot determine loading status\nfrom unknown error: unexpected command response\n  (Session info: chrome=103.0.5060.114)\nBuild info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'\nSystem info: host: 'LAPTOP-9R48IK28', ip: '192.168.1.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\\Users\\gowth\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52148}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 3a9467afc071fd38f4b2bd1324ba4db6",
+      "time" : {
+        "start" : 1658307581442,
+        "stop" : 1658307597403,
+        "duration" : 15961
+      }
+    } ]
+  },
+  "7aca2e565a1822d641dc238bed8a4785" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c4f92dde96a5ab2a",
+      "status" : "broken",
+      "statusDetails" : "unknown error: net::ERR_INTERNET_DISCONNECTED\n  (Session info: chrome=103.0.5060.66)\nBuild info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'\nSystem info: host: 'LAPTOP-9R48IK28', ip: '127.0.0.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.66, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\\Users\\gowth\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57863}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 3a47ff2ef6fdec4bb2226d35361ff3f6",
+      "time" : {
+        "start" : 1656909757923,
+        "stop" : 1656909759999,
+        "duration" : 2076
+      }
+    } ]
+  },
+  "d207cb71a52904c646f781d79c32281c" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8b76cd6a6db85ac4",
+      "status" : "failed",
+      "statusDetails" : "Verify Payment is displayed in Checkout screen expected [true] but found [false]",
+      "time" : {
+        "start" : 1656906297549,
+        "stop" : 1656906953242,
+        "duration" : 655693
+      }
+    } ]
+  },
+  "477428232b6bf16bc1d9a79f79266a23" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b0e6412e983dd5e9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1658306068168,
+        "stop" : 1658306092833,
+        "duration" : 24665
+      }
+    } ]
+  }
+}

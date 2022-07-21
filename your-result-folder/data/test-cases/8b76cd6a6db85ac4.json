@@ -1,0 +1,425 @@
+{
+  "uid" : "8b76cd6a6db85ac4",
+  "name" : "validate user able to add product and proceed till payments",
+  "fullName" : "Filter the product and validate the similar products: validate user able to add product and proceed till payments",
+  "historyId" : "d207cb71a52904c646f781d79c32281c",
+  "time" : {
+    "start" : 1656906297549,
+    "stop" : 1656906953242,
+    "duration" : 655693
+  },
+  "status" : "failed",
+  "statusMessage" : "Verify Payment is displayed in Checkout screen expected [true] but found [false]",
+  "statusTrace" : "java.lang.AssertionError: Verify Payment is displayed in Checkout screen expected [true] but found [false]\r\n\tat org.testng.Assert.fail(Assert.java:97)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:969)\r\n\tat org.testng.Assert.assertTrue(Assert.java:43)\r\n\tat StepDefinitions.CheckOutSD.the_customer_clicks_on_Proceed_to_Checkout_to_land_in_Payment_Page(CheckOutSD.java:28)\r\n\tat ✽.the user clicks on Proceed to Checkout to land in Payment Page(file:///D:/testing/GowthamBDD/src/test/resources/Features/test.feature:19)\r\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 13,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Verify Payment is displayed in Checkout screen expected [true] but found [false]",
+    "statusTrace" : "java.lang.AssertionError: Verify Payment is displayed in Checkout screen expected [true] but found [false]\r\n\tat org.testng.Assert.fail(Assert.java:97)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:969)\r\n\tat org.testng.Assert.assertTrue(Assert.java:43)\r\n\tat StepDefinitions.CheckOutSD.the_customer_clicks_on_Proceed_to_Checkout_to_land_in_Payment_Page(CheckOutSD.java:28)\r\n\tat ✽.the user clicks on Proceed to Checkout to land in Payment Page(file:///D:/testing/GowthamBDD/src/test/resources/Features/test.feature:19)\r\n",
+    "steps" : [ {
+      "name" : "Given  user launches the application",
+      "time" : {
+        "start" : 1656906297553,
+        "stop" : 1656906340038,
+        "duration" : 42485
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "When  the user clicks on Sign in button",
+      "time" : {
+        "start" : 1656906340043,
+        "stop" : 1656906349679,
+        "duration" : 9636
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And  user should navigate to \"Authentication\" screen",
+      "time" : {
+        "start" : 1656906349680,
+        "stop" : 1656906353412,
+        "duration" : 3732
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Then  the user enter the \"b.h43@gmail.com\" to \"create an account\"",
+      "time" : {
+        "start" : 1656906353413,
+        "stop" : 1656906363471,
+        "duration" : 10058
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And  the user gives the mandatory fields and clicks on register",
+      "time" : {
+        "start" : 1656906363479,
+        "stop" : 1656906391801,
+        "duration" : 28322
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And  the user verifies if the name is displayed correctly",
+      "time" : {
+        "start" : 1656906391802,
+        "stop" : 1656906408362,
+        "duration" : 16560
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Then  the user clicks on logout button",
+      "time" : {
+        "start" : 1656906408363,
+        "stop" : 1656906420202,
+        "duration" : 11839
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And  the user gives the \"b.h43@gmail.com\" and \"feabcd\" and clicks on sign in",
+      "time" : {
+        "start" : 1656906420205,
+        "stop" : 1656906428262,
+        "duration" : 8057
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And  the user adds a product to the cart",
+      "time" : {
+        "start" : 1656906428263,
+        "stop" : 1656906544394,
+        "duration" : 116131
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Then  the user lands in checkout page",
+      "time" : {
+        "start" : 1656906544395,
+        "stop" : 1656906608202,
+        "duration" : 63807
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And  the user verifies \"Printed Summer Dress\" product name is displayed in Checkout screen",
+      "time" : {
+        "start" : 1656906608203,
+        "stop" : 1656906629387,
+        "duration" : 21184
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Then  the user clicks on Proceed to Checkout to land in Address Page",
+      "time" : {
+        "start" : 1656906629387,
+        "stop" : 1656906743468,
+        "duration" : 114081
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Then  the user clicks on Proceed to Checkout to land in Shipping Page",
+      "time" : {
+        "start" : 1656906743468,
+        "stop" : 1656906824434,
+        "duration" : 80966
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Then  the user clicks on Proceed to Checkout to land in Payment Page",
+      "time" : {
+        "start" : 1656906824435,
+        "stop" : 1656906953229,
+        "duration" : 128794
+      },
+      "status" : "failed",
+      "statusMessage" : "Verify Payment is displayed in Checkout screen expected [true] but found [false]",
+      "statusTrace" : "java.lang.AssertionError: Verify Payment is displayed in Checkout screen expected [true] but found [false]\r\n\tat org.testng.Assert.fail(Assert.java:97)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:969)\r\n\tat org.testng.Assert.assertTrue(Assert.java:43)\r\n\tat StepDefinitions.CheckOutSD.the_customer_clicks_on_Proceed_to_Checkout_to_land_in_Payment_Page(CheckOutSD.java:28)\r\n\tat ✽.the user clicks on Proceed to Checkout to land in Payment Page(file:///D:/testing/GowthamBDD/src/test/resources/Features/test.feature:19)\r\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 14,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "AutomationPractice"
+  }, {
+    "name" : "tag",
+    "value" : "AddProduct"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-9R48IK28"
+  }, {
+    "name" : "thread",
+    "value" : "22140@LAPTOP-9R48IK28.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "Filter the product and validate the similar products"
+  }, {
+    "name" : "story",
+    "value" : "validate user able to add product and proceed till payments"
+  }, {
+    "name" : "suite",
+    "value" : "Filter the product and validate the similar products"
+  }, {
+    "name" : "testClass",
+    "value" : "validate user able to add product and proceed till payments"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber4jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "gherkin_uri",
+    "value" : "file:///D:/testing/GowthamBDD/src/test/resources/Features/test.feature"
+  }, {
+    "name" : "package",
+    "value" : "src.test.resources.Features.test_feature.Filter the product and validate the similar products"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "EmailID",
+    "value" : "b.h43@gmail.com"
+  }, {
+    "name" : "Password",
+    "value" : "feabcd"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "3a51e27684f02bd1",
+      "status" : "broken",
+      "statusDetails" : "unknown error: unexpected command response\n  (Session info: chrome=103.0.5060.66)\nBuild info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'\nSystem info: host: 'LAPTOP-9R48IK28', ip: '192.168.1.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.66, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\\Users\\gowth\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64394}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 7e0cd9c49be3d791dd6a4df613b22f88",
+      "time" : {
+        "start" : 1656906216998,
+        "stop" : 1656906229562,
+        "duration" : 12564
+      }
+    }, {
+      "uid" : "a0047ae90088dcc0",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[@name='Submit']\"}\n  (Session info: chrome=103.0.5060.66)\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'\nSystem info: host: 'LAPTOP-9R48IK28', ip: '192.168.1.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.66, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\\Users\\gowth\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64647}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: c0841e3ef2878d33624aae4e54211678\n*** Element info: {Using=xpath, value=//button[@name='Submit']}",
+      "time" : {
+        "start" : 1656858281366,
+        "stop" : 1656858326750,
+        "duration" : 45384
+      }
+    }, {
+      "uid" : "41c525a04c683f4b",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for presence of element located by: By.xpath: //button[@name='Submit'] (tried for 30 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1656856836415,
+        "stop" : 1656856907725,
+        "duration" : 71310
+      }
+    }, {
+      "uid" : "daa306ee2eabb61b",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for presence of element located by: By.xpath: //button[@name='Submit'] (tried for 30 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1656856088885,
+        "stop" : 1656856239156,
+        "duration" : 150271
+      }
+    }, {
+      "uid" : "ac05d4b764a8a1b0",
+      "status" : "broken",
+      "statusDetails" : "session not created: This version of ChromeDriver only supports Chrome version 104\nCurrent browser version is 103.0.5060.66 with binary path C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe\nBuild info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'\nSystem info: host: 'LAPTOP-9R48IK28', ip: '192.168.1.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: Backtrace:\n\tOrdinal0 [0x00E6AF23+2207523]\n\tOrdinal0 [0x00E030E1+1781985]\n\tOrdinal0 [0x00D13FE8+802792]\n\tOrdinal0 [0x00D35AD3+940755]\n\tOrdinal0 [0x00D311EF+922095]\n\tOrdinal0 [0x00D2E9D1+911825]\n\tOrdinal0 [0x00D62200+1122816]\n\tOrdinal0 [0x00D61E5A+1121882]\n\tOrdinal0 [0x00D5D406+1102854]\n\tOrdinal0 [0x00D375F0+947696]\n\tOrdinal0 [0x00D384E6+951526]\n\tGetHandleVerifier [0x01112A12+2733954]\n\tGetHandleVerifier [0x01104E28+2677656]\n\tGetHandleVerifier [0x00EF46EA+513114]\n\tGetHandleVerifier [0x00EF3796+509190]\n\tOrdinal0 [0x00E09CEB+1809643]\n\tOrdinal0 [0x00E0E448+1827912]\n\tOrdinal0 [0x00E0E535+1828149]\n\tOrdinal0 [0x00E17960+1866080]\n\tBaseThreadInitThunk [0x76696739+25]\n\tRtlGetFullPathName_UEx [0x77988FEF+1215]\n\tRtlGetFullPathName_UEx [0x77988FBD+1165]\n",
+      "time" : {
+        "start" : 1656855986723,
+        "stop" : 1656855989765,
+        "duration" : 3042
+      }
+    }, {
+      "uid" : "96ac79473162f69b",
+      "status" : "broken",
+      "statusDetails" : "session not created: This version of ChromeDriver only supports Chrome version 104\nCurrent browser version is 103.0.5060.66 with binary path C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe\nBuild info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'\nSystem info: host: 'LAPTOP-9R48IK28', ip: '192.168.1.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: Backtrace:\n\tOrdinal0 [0x00E6AF23+2207523]\n\tOrdinal0 [0x00E030E1+1781985]\n\tOrdinal0 [0x00D13FE8+802792]\n\tOrdinal0 [0x00D35AD3+940755]\n\tOrdinal0 [0x00D311EF+922095]\n\tOrdinal0 [0x00D2E9D1+911825]\n\tOrdinal0 [0x00D62200+1122816]\n\tOrdinal0 [0x00D61E5A+1121882]\n\tOrdinal0 [0x00D5D406+1102854]\n\tOrdinal0 [0x00D375F0+947696]\n\tOrdinal0 [0x00D384E6+951526]\n\tGetHandleVerifier [0x01112A12+2733954]\n\tGetHandleVerifier [0x01104E28+2677656]\n\tGetHandleVerifier [0x00EF46EA+513114]\n\tGetHandleVerifier [0x00EF3796+509190]\n\tOrdinal0 [0x00E09CEB+1809643]\n\tOrdinal0 [0x00E0E448+1827912]\n\tOrdinal0 [0x00E0E535+1828149]\n\tOrdinal0 [0x00E17960+1866080]\n\tBaseThreadInitThunk [0x76696739+25]\n\tRtlGetFullPathName_UEx [0x77988FEF+1215]\n\tRtlGetFullPathName_UEx [0x77988FBD+1165]\n",
+      "time" : {
+        "start" : 1656855798135,
+        "stop" : 1656855800946,
+        "duration" : 2811
+      }
+    }, {
+      "uid" : "f4626fd88603f544",
+      "status" : "broken",
+      "statusDetails" : "unknown error: cannot determine loading status\nfrom unknown error: unexpected command response\n  (Session info: chrome=103.0.5060.66)\nBuild info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'\nSystem info: host: 'LAPTOP-9R48IK28', ip: '192.168.1.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.66, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\\Users\\gowth\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63328}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: db237a768fb8104cd794f8e45d94c0ab",
+      "time" : {
+        "start" : 1656854408254,
+        "stop" : 1656854423167,
+        "duration" : 14913
+      }
+    }, {
+      "uid" : "cf136aecd8aafa55",
+      "status" : "broken",
+      "statusDetails" : "unknown error: unexpected command response\n  (Session info: chrome=103.0.5060.66)\nBuild info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'\nSystem info: host: 'LAPTOP-9R48IK28', ip: '192.168.1.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.66, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\\Users\\gowth\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63238}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: a8889c826b2da03b826228129411e2e0",
+      "time" : {
+        "start" : 1656854270668,
+        "stop" : 1656854282915,
+        "duration" : 12247
+      }
+    }, {
+      "uid" : "2dd97a0acc5445ea",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //button[@name='Submit'] (tried for 30 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1656853666641,
+        "stop" : 1656853734241,
+        "duration" : 67600
+      }
+    }, {
+      "uid" : "cdb6a5583f3b6879",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //button[@name='Submit'] (tried for 15 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1656853365462,
+        "stop" : 1656853427001,
+        "duration" : 61539
+      }
+    }, {
+      "uid" : "8b31501a18f55c64",
+      "status" : "broken",
+      "statusDetails" : "Step [the user clicks on Proceed to Checkout to land in Address Page] is defined with 1 parameters at 'StepDefinitions.CheckOutSD.the_customer_clicks_on_Proceed_to_Checkout_to_land_in_Address_Page(java.lang.String)'.\nHowever, the gherkin step has 0 arguments.\nStep text: the user clicks on Proceed to Checkout to land in Address Page",
+      "time" : {
+        "start" : 1656852632725,
+        "stop" : 1656852698799,
+        "duration" : 66074
+      }
+    }, {
+      "uid" : "93aa90a87aed9a1e",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for presence of element located by: By.xpath: //h1[@class='page-heading'][text()='Create an account'] (tried for 15 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1656843950215,
+        "stop" : 1656844003691,
+        "duration" : 53476
+      }
+    }, {
+      "uid" : "d1c06d9e7ea229e6",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for presence of element located by: By.xpath: //h1[@class='page-heading'][text()='Create an account'] (tried for 15 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1656842735509,
+        "stop" : 1656842769668,
+        "duration" : 34159
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ "AddProduct", "AutomationPractice" ]
+  },
+  "source" : "8b76cd6a6db85ac4.json",
+  "parameterValues" : [ "b.h43@gmail.com", "feabcd" ]
+}

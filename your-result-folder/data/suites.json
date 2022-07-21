@@ -1,0 +1,85 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Filter the product and validate the similar products",
+    "children" : [ {
+      "name" : "validate user able to add product and proceed till payments",
+      "uid" : "8b76cd6a6db85ac4",
+      "parentUid" : "b89c7ebcde192f6bde27ff24700a8dd2",
+      "status" : "failed",
+      "time" : {
+        "start" : 1656906297549,
+        "stop" : 1656906953242,
+        "duration" : 655693
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 13,
+      "retriesStatusChange" : true,
+      "parameters" : [ "b.h43@gmail.com", "feabcd" ]
+    } ],
+    "uid" : "b89c7ebcde192f6bde27ff24700a8dd2"
+  }, {
+    "name" : "Validate Automation product application functionalities",
+    "children" : [ {
+      "name" : "validate user able to sign in and sign out successfully",
+      "uid" : "c4f92dde96a5ab2a",
+      "parentUid" : "85dc2347c92f972bd73485d9d3599b9c",
+      "status" : "broken",
+      "time" : {
+        "start" : 1656909757923,
+        "stop" : 1656909759999,
+        "duration" : 2076
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "b.h43@gmail.com", "feabcd" ]
+    }, {
+      "name" : "validate user able to create an account successfully",
+      "uid" : "b0e6412e983dd5e9",
+      "parentUid" : "85dc2347c92f972bd73485d9d3599b9c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1658306068168,
+        "stop" : 1658306092833,
+        "duration" : 24665
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "b.ke49@gmail.com" ]
+    } ],
+    "uid" : "85dc2347c92f972bd73485d9d3599b9c"
+  }, {
+    "name" : "Validate Sign In Sign Out functionalities",
+    "children" : [ {
+      "name" : "validate user able to sign in and sign out successfully",
+      "uid" : "bd78a85e87f1ff1c",
+      "parentUid" : "1c691bfe17e59837ede9b8fe10ceeec2",
+      "status" : "broken",
+      "time" : {
+        "start" : 1658307581442,
+        "stop" : 1658307597403,
+        "duration" : 15961
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "b.ke49@gmail.com", "feabcd" ]
+    } ],
+    "uid" : "1c691bfe17e59837ede9b8fe10ceeec2"
+  } ]
+}

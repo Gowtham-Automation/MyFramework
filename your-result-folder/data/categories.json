@@ -1,0 +1,76 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Verify Payment is displayed in Checkout screen expected [true] but found [false]",
+      "children" : [ {
+        "name" : "validate user able to add product and proceed till payments",
+        "uid" : "8b76cd6a6db85ac4",
+        "parentUid" : "8f9e5a7d7259f05d97259bcc5a9df0ea",
+        "status" : "failed",
+        "time" : {
+          "start" : 1656906297549,
+          "stop" : 1656906953242,
+          "duration" : 655693
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 13,
+        "retriesStatusChange" : true,
+        "parameters" : [ "b.h43@gmail.com", "feabcd" ]
+      } ],
+      "uid" : "8f9e5a7d7259f05d97259bcc5a9df0ea"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  }, {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "unknown error: net::ERR_INTERNET_DISCONNECTED\n  (Session info: chrome=103.0.5060.66)\nBuild info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'\nSystem info: host: 'LAPTOP-9R48IK28', ip: '127.0.0.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.66, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\\Users\\gowth\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57863}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 3a47ff2ef6fdec4bb2226d35361ff3f6",
+      "children" : [ {
+        "name" : "validate user able to sign in and sign out successfully",
+        "uid" : "c4f92dde96a5ab2a",
+        "parentUid" : "50a0b679eee77e05e2bd7abd46cc3776",
+        "status" : "broken",
+        "time" : {
+          "start" : 1656909757923,
+          "stop" : 1656909759999,
+          "duration" : 2076
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "b.h43@gmail.com", "feabcd" ]
+      } ],
+      "uid" : "50a0b679eee77e05e2bd7abd46cc3776"
+    }, {
+      "name" : "unknown error: cannot determine loading status\nfrom unknown error: unexpected command response\n  (Session info: chrome=103.0.5060.114)\nBuild info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'\nSystem info: host: 'LAPTOP-9R48IK28', ip: '192.168.1.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\\Users\\gowth\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52148}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 3a9467afc071fd38f4b2bd1324ba4db6",
+      "children" : [ {
+        "name" : "validate user able to sign in and sign out successfully",
+        "uid" : "bd78a85e87f1ff1c",
+        "parentUid" : "c6edf8472432c840529d5f5135797231",
+        "status" : "broken",
+        "time" : {
+          "start" : 1658307581442,
+          "stop" : 1658307597403,
+          "duration" : 15961
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "b.ke49@gmail.com", "feabcd" ]
+      } ],
+      "uid" : "c6edf8472432c840529d5f5135797231"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

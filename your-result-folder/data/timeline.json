@@ -1,0 +1,366 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "LAPTOP-9R48IK28",
+    "children" : [ {
+      "name" : "15688@LAPTOP-9R48IK28.main(1)",
+      "children" : [ {
+        "name" : "validate user able to add product and proceed till payments",
+        "uid" : "a0047ae90088dcc0",
+        "parentUid" : "dea9fbf4a0d990a133497a27495cd560",
+        "status" : "broken",
+        "time" : {
+          "start" : 1656858281366,
+          "stop" : 1656858326750,
+          "duration" : 45384
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "b.w20@gmail.com", "feabcd" ]
+      } ],
+      "uid" : "dea9fbf4a0d990a133497a27495cd560"
+    }, {
+      "name" : "12376@LAPTOP-9R48IK28.main(1)",
+      "children" : [ {
+        "name" : "validate user able to add product and proceed till payments",
+        "uid" : "f4626fd88603f544",
+        "parentUid" : "e52eafad32407be1e464e9c1b5e26859",
+        "status" : "broken",
+        "time" : {
+          "start" : 1656854408254,
+          "stop" : 1656854423167,
+          "duration" : 14913
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "b.w16@gmail.com", "feabcd" ]
+      } ],
+      "uid" : "e52eafad32407be1e464e9c1b5e26859"
+    }, {
+      "name" : "16264@LAPTOP-9R48IK28.main(1)",
+      "children" : [ {
+        "name" : "validate user able to create an account successfully",
+        "uid" : "b0e6412e983dd5e9",
+        "parentUid" : "3adc42bdb83a62ecbd327c1fbc3d3da4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1658306068168,
+          "stop" : 1658306092833,
+          "duration" : 24665
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "b.ke49@gmail.com" ]
+      } ],
+      "uid" : "3adc42bdb83a62ecbd327c1fbc3d3da4"
+    }, {
+      "name" : "13392@LAPTOP-9R48IK28.main(1)",
+      "children" : [ {
+        "name" : "validate user able to add product and proceed till payments",
+        "uid" : "ac05d4b764a8a1b0",
+        "parentUid" : "f68f51d0e8fa79f85c28b9264f7e4762",
+        "status" : "broken",
+        "time" : {
+          "start" : 1656855986723,
+          "stop" : 1656855989765,
+          "duration" : 3042
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "b.w16@gmail.com", "feabcd" ]
+      } ],
+      "uid" : "f68f51d0e8fa79f85c28b9264f7e4762"
+    }, {
+      "name" : "22140@LAPTOP-9R48IK28.main(1)",
+      "children" : [ {
+        "name" : "validate user able to add product and proceed till payments",
+        "uid" : "8b76cd6a6db85ac4",
+        "parentUid" : "a435bbe4819eefa91d491e573e9034f4",
+        "status" : "failed",
+        "time" : {
+          "start" : 1656906297549,
+          "stop" : 1656906953242,
+          "duration" : 655693
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 13,
+        "retriesStatusChange" : true,
+        "parameters" : [ "b.h43@gmail.com", "feabcd" ]
+      } ],
+      "uid" : "a435bbe4819eefa91d491e573e9034f4"
+    }, {
+      "name" : "10764@LAPTOP-9R48IK28.main(1)",
+      "children" : [ {
+        "name" : "Verify user able to create an account successfully",
+        "uid" : "d1c06d9e7ea229e6",
+        "parentUid" : "4cda7356e827fad0a8ce0628e34aa777",
+        "status" : "broken",
+        "time" : {
+          "start" : 1656842735509,
+          "stop" : 1656842769668,
+          "duration" : 34159
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "guru1@gmail.com", "feabcd" ]
+      } ],
+      "uid" : "4cda7356e827fad0a8ce0628e34aa777"
+    }, {
+      "name" : "12208@LAPTOP-9R48IK28.main(1)",
+      "children" : [ {
+        "name" : "validate user able to add product and proceed till payments",
+        "uid" : "cf136aecd8aafa55",
+        "parentUid" : "741f69ff62b27889d1cbde7dfee2c7ce",
+        "status" : "broken",
+        "time" : {
+          "start" : 1656854270668,
+          "stop" : 1656854282915,
+          "duration" : 12247
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "b.w16@gmail.com", "feabcd" ]
+      } ],
+      "uid" : "741f69ff62b27889d1cbde7dfee2c7ce"
+    }, {
+      "name" : "4696@LAPTOP-9R48IK28.main(1)",
+      "children" : [ {
+        "name" : "validate user able to add product and proceed till payments",
+        "uid" : "cdb6a5583f3b6879",
+        "parentUid" : "efdac7a78fb2edce1e1e7b03c3215a90",
+        "status" : "broken",
+        "time" : {
+          "start" : 1656853365462,
+          "stop" : 1656853427001,
+          "duration" : 61539
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "b.w14@gmail.com", "feabcd" ]
+      } ],
+      "uid" : "efdac7a78fb2edce1e1e7b03c3215a90"
+    }, {
+      "name" : "11988@LAPTOP-9R48IK28.main(1)",
+      "children" : [ {
+        "name" : "validate user able to add product and proceed till payments",
+        "uid" : "daa306ee2eabb61b",
+        "parentUid" : "f6f1b95748584db11192099681789ffa",
+        "status" : "broken",
+        "time" : {
+          "start" : 1656856088885,
+          "stop" : 1656856239156,
+          "duration" : 150271
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "b.w16@gmail.com", "feabcd" ]
+      } ],
+      "uid" : "f6f1b95748584db11192099681789ffa"
+    }, {
+      "name" : "23384@LAPTOP-9R48IK28.main(1)",
+      "children" : [ {
+        "name" : "validate user able to add product and proceed till payments",
+        "uid" : "3a51e27684f02bd1",
+        "parentUid" : "322d75008c48ecc1db50fb71d411ba55",
+        "status" : "broken",
+        "time" : {
+          "start" : 1656906216998,
+          "stop" : 1656906229562,
+          "duration" : 12564
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "b.h43@gmail.com", "feabcd" ]
+      } ],
+      "uid" : "322d75008c48ecc1db50fb71d411ba55"
+    }, {
+      "name" : "12800@LAPTOP-9R48IK28.main(1)",
+      "children" : [ {
+        "name" : "validate user able to add product and proceed till payments",
+        "uid" : "41c525a04c683f4b",
+        "parentUid" : "1c5f028578c1d7c3cadeef6a2ecd953d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1656856836415,
+          "stop" : 1656856907725,
+          "duration" : 71310
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "b.w17@gmail.com", "feabcd" ]
+      } ],
+      "uid" : "1c5f028578c1d7c3cadeef6a2ecd953d"
+    }, {
+      "name" : "16908@LAPTOP-9R48IK28.main(1)",
+      "children" : [ {
+        "name" : "validate user able to add product and proceed till payments",
+        "uid" : "2dd97a0acc5445ea",
+        "parentUid" : "399e052a7ad04e1f99fe88cbf63be838",
+        "status" : "broken",
+        "time" : {
+          "start" : 1656853666641,
+          "stop" : 1656853734241,
+          "duration" : 67600
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "b.w15@gmail.com", "feabcd" ]
+      } ],
+      "uid" : "399e052a7ad04e1f99fe88cbf63be838"
+    }, {
+      "name" : "7332@LAPTOP-9R48IK28.main(1)",
+      "children" : [ {
+        "name" : "validate user able to sign in and sign out successfully",
+        "uid" : "c4f92dde96a5ab2a",
+        "parentUid" : "a8de55fb05229d1205a4bce6fbd09906",
+        "status" : "broken",
+        "time" : {
+          "start" : 1656909757923,
+          "stop" : 1656909759999,
+          "duration" : 2076
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "b.h43@gmail.com", "feabcd" ]
+      } ],
+      "uid" : "a8de55fb05229d1205a4bce6fbd09906"
+    }, {
+      "name" : "1892@LAPTOP-9R48IK28.main(1)",
+      "children" : [ {
+        "name" : "validate user able to sign in and sign out successfully",
+        "uid" : "bd78a85e87f1ff1c",
+        "parentUid" : "7cef540af6be5ea3c0dde19d25ca8e98",
+        "status" : "broken",
+        "time" : {
+          "start" : 1658307581442,
+          "stop" : 1658307597403,
+          "duration" : 15961
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "b.ke49@gmail.com", "feabcd" ]
+      } ],
+      "uid" : "7cef540af6be5ea3c0dde19d25ca8e98"
+    }, {
+      "name" : "8496@LAPTOP-9R48IK28.main(1)",
+      "children" : [ {
+        "name" : "validate user able to add product and proceed till payments",
+        "uid" : "96ac79473162f69b",
+        "parentUid" : "8d9e500419c2cfeabddff3536226a85b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1656855798135,
+          "stop" : 1656855800946,
+          "duration" : 2811
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "b.w16@gmail.com", "feabcd" ]
+      } ],
+      "uid" : "8d9e500419c2cfeabddff3536226a85b"
+    }, {
+      "name" : "9596@LAPTOP-9R48IK28.main(1)",
+      "children" : [ {
+        "name" : "Verify user able to create an account successfully",
+        "uid" : "93aa90a87aed9a1e",
+        "parentUid" : "40f0567e3894ccf70eef2add90d3271a",
+        "status" : "broken",
+        "time" : {
+          "start" : 1656843950215,
+          "stop" : 1656844003691,
+          "duration" : 53476
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "mks@gmail.com", "feabcd" ]
+      } ],
+      "uid" : "40f0567e3894ccf70eef2add90d3271a"
+    }, {
+      "name" : "19412@LAPTOP-9R48IK28.main(1)",
+      "children" : [ {
+        "name" : "validate user able to add product and proceed till payments",
+        "uid" : "8b31501a18f55c64",
+        "parentUid" : "1b9c5ea9ee5ddcacb399546cb879e3a5",
+        "status" : "broken",
+        "time" : {
+          "start" : 1656852632725,
+          "stop" : 1656852698799,
+          "duration" : 66074
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "b.w12@gmail.com", "feabcd" ]
+      } ],
+      "uid" : "1b9c5ea9ee5ddcacb399546cb879e3a5"
+    } ],
+    "uid" : "289773aaaf35d5cdba6b12727e60ee83"
+  } ]
+}

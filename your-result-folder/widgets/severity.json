@@ -1,0 +1,41 @@
+[ {
+  "uid" : "bd78a85e87f1ff1c",
+  "name" : "validate user able to sign in and sign out successfully",
+  "time" : {
+    "start" : 1658307581442,
+    "stop" : 1658307597403,
+    "duration" : 15961
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "c4f92dde96a5ab2a",
+  "name" : "validate user able to sign in and sign out successfully",
+  "time" : {
+    "start" : 1656909757923,
+    "stop" : 1656909759999,
+    "duration" : 2076
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "8b76cd6a6db85ac4",
+  "name" : "validate user able to add product and proceed till payments",
+  "time" : {
+    "start" : 1656906297549,
+    "stop" : 1656906953242,
+    "duration" : 655693
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "b0e6412e983dd5e9",
+  "name" : "validate user able to create an account successfully",
+  "time" : {
+    "start" : 1658306068168,
+    "stop" : 1658306092833,
+    "duration" : 24665
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

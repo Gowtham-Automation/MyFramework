@@ -1,0 +1,5 @@
+"Epic","Feature","Story","FAILED","BROKEN","PASSED","SKIPPED","UNKNOWN"
+"","Validate Automation product application functionalities","validate user able to create an account successfully","0","0","1","0","0"
+"","Filter the product and validate the similar products","validate user able to add product and proceed till payments","1","0","0","0","0"
+"","Validate Automation product application functionalities","validate user able to sign in and sign out successfully","0","1","0","0","0"
+"","Validate Sign In Sign Out functionalities","validate user able to sign in and sign out successfully","0","1","0","0","0"
