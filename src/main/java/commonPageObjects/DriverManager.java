@@ -14,6 +14,7 @@ public class DriverManager {
 	public static WebDriver driver;
 	public static WebDriverWait webDriverWait;
 	private static Properties properties;
+	TestContextSetup testContextSetup;
 	
 	static {
 		properties = new Properties();
@@ -24,9 +25,9 @@ public class DriverManager {
 				e.printStackTrace();
 			}
 		}
-	public WebDriver launchApplication() throws IOException{
-		//getDriver();
-		driver.get(properties.getProperty("Url"));
+	public WebDriver launchApplication(String url) throws IOException{
+		getDriver();
+		driver.get(properties.getProperty(url));
 		driver.manage().window().maximize();
 		return driver;
 	}

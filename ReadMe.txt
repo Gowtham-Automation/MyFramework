@@ -29,3 +29,12 @@ Once after the test execution
 	Right click on project
 	select "Terminal" under "Show in Local Terminal"
 	Enter command "allure serve" - It'll generate a report
+
+
+Test Runner
+1. Implemented 1 test runner for parallel run through TestNG
+2. Implemented 1 test runner for Failed cases through Junit
+3. Implemented 1 for normal execution through Junit
+
+Dependency Injector
+Implemented Dependency Injector, Please Refer - commonPageObjects.TestContextSetup.class
