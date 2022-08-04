@@ -1,32 +1,30 @@
 package StepDefinition.CommonStepDef;
 
-import org.openqa.selenium.WebDriver;
-
 import commonPageObjects.CommonFunctions;
 import commonPageObjects.DriverManager;
+import commonPageObjects.TestContextSetup;
 import io.cucumber.java.After;
-import io.cucumber.java.AfterStep;
 import io.cucumber.java.Before;
 import io.cucumber.java.Scenario;
 
 public class Hooks {
 	
-	public static WebDriver driver;
+	TestContextSetup testContextSetup; 
+	
+	public Hooks(TestContextSetup testContextSetup)
+	{
+		this.testContextSetup = testContextSetup;
+	}
 	
 	@Before
-	public void setUp() {
-		DriverManager driverManager = new DriverManager();
-		try {
-			driver = driverManager.getDriver();
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
+	public void setUp(Scenario scenario) {
+		scenario.log("Driver Setup Done - Start Scenario");
 	}
 	
 //	@AfterStep
 //	public void printScreenEveryStep(Scenario scenario) {
 //		try {
-//			CommonFunctions.attachScreenshot(driver,scenario, "");
+//			CommonFunctions.attachScreenshot(testContextSetup.driver,scenario, "");
 //		} catch (Exception e) {
 //			e.printStackTrace();
 //		}
@@ -40,10 +38,10 @@ public class Hooks {
 				scenario.log("Scenario got Failed");
 			else
 				scenario.log("Scenario got Successfull");
-			CommonFunctions.attachScreenshot(driver,scenario, screenshotName);
+			CommonFunctions.attachScreenshot(testContextSetup.driver,scenario, screenshotName);
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
-		driver.close();
+		testContextSetup.driver.close();
 	}
 }

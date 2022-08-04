@@ -25,11 +25,10 @@ public class DriverManager {
 				e.printStackTrace();
 			}
 		}
-	public WebDriver launchApplication(String url) throws IOException{
-		getDriver();
+	
+	public void launchApplication(String url) throws IOException{
 		driver.get(properties.getProperty(url));
 		driver.manage().window().maximize();
-		return driver;
 	}
 
 	
@@ -54,8 +53,13 @@ public class DriverManager {
 		}
 		else
 			System.out.println("Browser value not initialized in Property file");
-		webDriverWait = new WebDriverWait(driver, returnExplicitWait());
-		return DriverManager.driver = driver;
+		DriverManager.driver = driver;
+		return driver;
+	}
+	
+	public WebDriverWait synchronize() {
+		DriverManager.webDriverWait = new WebDriverWait(driver, returnExplicitWait());
+		return webDriverWait;
 	}
 	
 	public static long returnExplicitWait() {
