@@ -4,7 +4,6 @@ import java.io.IOException;
 
 import commonPageObjects.DriverManager;
 import io.cucumber.java.en.Given;
-import io.cucumber.java.en.Then;
 
 public class LoginAndLogoutSD {
 	

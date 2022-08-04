@@ -6,8 +6,6 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import commonPageObjects.CommonFunctions;
-import commonPageObjects.DriverManager;
-import commonPageObjects.TestContextSetup;
 
 public class DashBoardPage extends CommonFunctions{
 	

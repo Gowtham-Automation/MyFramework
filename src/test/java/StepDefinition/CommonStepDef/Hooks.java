@@ -1,7 +1,6 @@
 package StepDefinition.CommonStepDef;
 
 import commonPageObjects.CommonFunctions;
-import commonPageObjects.DriverManager;
 import commonPageObjects.TestContextSetup;
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
